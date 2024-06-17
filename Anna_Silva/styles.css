@@ -1,0 +1,393 @@
+body {
+    background-color: rgb(237, 239, 246);
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+ }
+
+.open-sans
+{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #025425;
+}
+.open-sans-subtitulo
+{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #025425;
+}
+
+.open-sans-texto
+{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #025425;
+}
+
+
+/*MEDIA QUERIES*/
+/*Pantalla normal*/
+@media (min-width:1024px) 
+{
+    
+    .contenedorPrincipal
+    {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        width: 100%;
+        height: 100%;
+    
+    }
+    header
+    {
+       /*width: 100%;
+       height: 15%;*/
+       grid-column: 1/13;
+       grid-row: 1;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       background-color: #fc6998;
+    }
+   
+   main
+   {
+       /*width: 100%;
+       height: 70%;*/
+       grid-column: 1/13;
+       grid-row: 2/6;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+      
+   }
+
+   .hojitas
+   {
+       grid-column: 1/13;
+       grid-row: 2/6;
+       display: flex;
+       align-items: center;
+       justify-content: center; 
+   }
+   .hojitas img
+   {
+       height: 90%;
+       width: 100%;
+   }
+   .flores1
+   {
+      
+       grid-column: 1/4;
+       grid-row: 1/7;
+     
+       background-image: url(https://www.pikpng.com/pngl/b/588-5883760_bunga-png-japanese-cherry-blossom-png-clipart.png);
+       background-size: cover;
+       background-repeat: no-repeat;
+      
+   }
+   
+   .flores2
+   {
+       
+       grid-column: 10/13;
+       grid-row: 1/7;
+      
+       transform: scaleX(-1);
+       background-image: url(https://www.pikpng.com/pngl/b/588-5883760_bunga-png-japanese-cherry-blossom-png-clipart.png);
+       background-size: cover;
+   }
+   footer
+   {
+      /* width: 100%;
+       height: 15%;*/
+       grid-column: 1/13;
+       grid-row: 6/7;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background-color: #fc6998;
+   }
+   .ContenedorFormulario
+   {
+       width: 40%;
+       height: 80%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+      background-color: #fa8fb1 ;
+       border-radius: 10%;
+   }
+   .btn
+   {
+       background-color: #f74780;
+       width: 60%;
+       height: 10%;
+       border-radius: 15px;
+       border-color: #f74780;
+   }
+   .inputC
+   {
+       width: 60%;
+       height: 15%;
+       border-color: #f74780;
+       
+   }
+   .video
+   {
+       width: 80%;
+       height: 80%;
+   }
+}
+
+/*TABLET*/
+@media (min-width: 768px) and (max-width: 1024px) 
+{
+    .open-sans-texto
+    {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #025425;
+    }
+   
+    .contenedorPrincipal
+    {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        width: 100%;
+        height: 100%;
+    }
+    header
+    {
+       /*width: 100%;
+       height: 15%;*/
+       grid-column: 1/5;
+       grid-row: 1/2;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       background-color: #fc6998;
+    }
+   
+   main
+   {
+       /*width: 100%;
+       height: 70%;*/
+       grid-column: 1/5;
+       grid-row: 2/12;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   footer
+   {
+      /* width: 100%;
+       height: 15%;*/
+       grid-column: 1/5;
+       grid-row: 12;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background-color: #fc6998;
+   }
+   
+   .hojitas
+   {
+       grid-column: 1/5;
+       grid-row: 2/12;
+       display: flex;
+       align-items: center;
+       justify-content: center; 
+   }
+   .hojitas img
+   {
+       height: 90%;
+       width: 100%;
+   }
+   .flores1
+   {
+      
+       grid-column: 1;
+       grid-row: 3/10;
+     
+       background-image: url(https://www.pngall.com/wp-content/uploads/12/Cherry-Blossom.png);
+       background-size: contain;
+       background-repeat: no-repeat;
+      
+   }
+   
+   .flores2
+   {
+       
+       grid-column: 4;
+       grid-row: 3/10;
+       transform: scaleX(-1);
+       background-image: url(https://www.pngall.com/wp-content/uploads/12/Cherry-Blossom.png);
+       background-size: contain;
+       background-repeat: no-repeat;
+   }
+   .flores3
+   {
+    grid-column: 2/4;
+    grid-row: 9/12;
+    background-image: url(https://png.pngtree.com/png-clipart/20231003/original/pngtree-cherry-blossom-watercolor-flower-png-image_13081580.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+ 
+   .ContenedorFormulario
+   {
+       width: 60%;
+       height: 70%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+      background-color: #fa8fb1 ;
+       border-radius: 10%;
+   }
+   .btn
+   {
+       background-color: #f74780;
+       width: 60%;
+       height: 10%;
+       border-radius: 15px;
+       border-color: #f74780;
+   }
+   .inputC
+   {
+       width: 60%;
+       height: 15%;
+       border-color: #f74780;
+       
+   }
+   .video
+   {
+       width: 80%;
+       height: 80%;
+   }
+    
+}
+
+@media (max-width:767px)
+{
+    .open-sans-texto
+    {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #025425;
+    }
+   
+    .contenedorPrincipal
+    {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        width: 100%;
+        height: 100%;
+    }
+    header
+    {
+       /*width: 100%;
+       height: 15%;*/
+       grid-column: 1/5;
+       grid-row: 1/2;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       background-color: #fc6998;
+    }
+   
+   main
+   {
+       /*width: 100%;
+       height: 70%;*/
+       grid-column: 1/5;
+       grid-row: 2/12;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   footer
+   {
+      /* width: 100%;
+       height: 15%;*/
+       grid-column: 1/5;
+       grid-row: 12;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background-color: #fc6998;
+   }
+   
+   .hojitas
+   {
+       grid-column: 1/5;
+       grid-row: 2/12;
+       display: flex;
+       align-items: center;
+       justify-content: center; 
+   }
+   .hojitas img
+   {
+       height: 90%;
+       width: 100%;
+   }
+   
+   .flores3
+   {
+    grid-column: 2/4;
+    grid-row: 9/12;
+    background-image: url(https://png.pngtree.com/png-clipart/20231003/original/pngtree-cherry-blossom-watercolor-flower-png-image_13081580.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+ 
+   .ContenedorFormulario
+   {
+       width: 90%;
+       height: 70%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+      background-color: #fa8fb1 ;
+       border-radius: 10%;
+   }
+   .btn
+   {
+       background-color: #f74780;
+       width: 60%;
+       height: 10%;
+       border-radius: 15px;
+       border-color: #f74780;
+   }
+   .inputC
+   {
+       width: 60%;
+       height: 15%;
+       border-color: #f74780;
+       
+   }
+   .video
+   {
+       width: 80%;
+       height: 80%;
+   }
+}
