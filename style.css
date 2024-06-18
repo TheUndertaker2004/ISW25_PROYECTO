@@ -6,9 +6,32 @@ body
 }
 main
 {
+    margin-left: 25%;
     background-color: wheat;
     width: 50%;
-    height: 50%;
+    height: 65%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: larger;
     display: flex;
+    flex-direction: column; 
+}
+main h1
+{
+    align-self: center;
+}
+main form
+{
+    font-size: 125%;
+}
+main form .text 
+{
+    height: 9%;
+    width: 90%;
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 10px;
+    font-size: 85%;
+    margin-bottom: 10px;
     
 }
