@@ -1,0 +1,151 @@
+#body {
+    background-color: rgb(46, 16, 16);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: rgb(1, 6, 8);
+    font-size: 1.3rem;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+nav a:hover {
+    text-shadow: 0px 0px 10px aliceblue;
+}
+
+.titulo { 
+    color: white;
+    font-size: 4rem;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+.elemento1, .Diseño, .Diseño2 {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.elemento1 {
+    background-color: black;
+    color: white;
+}
+
+.TV, h2 {
+    color: white;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.text, .centrar, .text-final {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.centrar {
+    margin: 0 auto; 
+    max-width: 400px;
+}
+
+.Diseño {
+    background-color: aliceblue;
+    color: black;
+}
+
+.Diseño2 {
+    background-color: black;
+    color: white;
+}
+
+.enlaces {
+    text-align: center;
+}
+
+.ultima {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ultima img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 30px 0;
+}
+
+.socialmedia {
+    color: white;
+}
+
+.musica {
+    color: white;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.imagen-playlist img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.imagen-playlist a {
+    display: block;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 2.5rem;
+    }
+
+    .elemento1, .Diseño, .Diseño2 {
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .titulo {
+        font-size: 2rem;
+    }
+
+    nav {
+        font-size: 1rem;
+    }
+}
