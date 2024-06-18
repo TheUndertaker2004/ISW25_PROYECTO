@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Icono de pestaña -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="img/china.png">
+    <!-- Pagina de estilos -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="Inicio">
+        <h1 class="espacio">China</h1>
+        <!-- Barra de Navegacion -->
+        <nav class="navbar navbar-expand-md fixed-top">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navegacion navbar-collapse" id="navbar-toggler">
+
+                    <a class="navbar-brand" href="#Inicio">
+                        <i class="bi bi-airplane-engines"></i>
+                    </a>
+
+                    <ul class="navegacion navbar-nav d-flex justify-content-center align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre-japon">Sobre China</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#comida">Comida</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactos">Contactos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seccion Hero -->
+        <section id="hero" class="seccion-carrusel">
+            <!-- Carrusel -->
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/242000/242363-Shaanxi.jpg"
+                            class="d-block w-100" alt="Foto de China 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://mediaim.expedia.com/destination/1/108c7b948b46bf94f06f6031300e7d70.jpg"
+                            class="d-block w-100" alt="Foto de China 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/65000/65809-Nanjing.jpg"
+                            class="d-block w-100" alt="Foto de China 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/101000/101505-Beijing.jpg"
+                            class="d-block w-100" alt="Foto de China 4">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Seccion Turismo -->
+        <section id="sobre-japon" class="container seccion-general ">
+            <h1>Sobre China</h1>
+            <div class="row ">
+                <div
+                    class="col-12 col-lg-6 d-flex justify-content-center align-items-center tamaño-map espacio-lateral">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27127743.462648746!2d82.75778889875184!3d33.90273168591894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31508e64e5c642c1%3A0x951daa7c349f366f!2sChina!5e0!3m2!1ses-419!2smx!4v1718723447367!5m2!1ses-419!2smx"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center align-items-center espacio-lateral">
+                    <div class="card">
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/242000/242655-Beijing.jpg?impolicy=fcrop&w=900&h=506&q=mediumHigh"
+                            class="card-img-top" alt="Pekin">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Pekin</strong></h5>
+                            <p class="card-text">
+                                La animada capital tiene templos,
+                                jardines y otras preciosas reliquias,
+                                además de arquitectura y entretenimiento modernos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center align-items-center espacio-lateral">
+                    <div class="card">
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/42000/42775-Century-Park.jpg?impolicy=fcrop&w=900&h=506&q=mediumHigh"
+                            class="card-img-top" alt="Shanghái">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Shanghái</strong></h5>
+                            <p class="card-text">
+                                Una de las ciudades más grandes del mundo fusiona la antigua cultura china,
+                                la arquitectura colonial y diseños futuristas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center align-items-center espacio-lateral">
+                    <div class="card">
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/65000/65852-Hangzhou.jpg?impolicy=fcrop&w=900&h=506&q=mediumHigh"
+                            class="card-img-top" alt="Hangzhou">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Hangzhou</strong></h5>
+                            <p class="card-text">
+                                Una sensacional belleza natural y un conjunto de
+                                preservados íconos culturales hacen que esta
+                                región de China sea de las favoritas de los turistas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center align-items-center espacio-lateral">
+                    <div class="card">
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/242000/242656-Beijing.jpg"
+                            class="card-img-top" alt="Ciudad prohibida">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Ciudad prohibida</strong></h5>
+                            <p class="card-text">
+                                Palacio imperial antes restringido es hoy un museo público
+                                que muestra el esplendor de la antigua China. Principal lugar
+                                de Beijing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center align-items-center espacio-lateral">
+                    <div class="card">
+                        <img src="https://mediaim.expedia.com/destination/9/3402dd3dda5b868b05307b92c301eb74.jpg"
+                            class="card-img-top" alt="Palacio de la Elegancia acumulada">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Palacio de la Elegancia acumulada</strong></h5>
+                            <p class="card-text">
+                                Cuando estés en Pekín, pasa un rato
+                                entre las muestras del Palacio de la
+                                Elegancia acumulada.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center align-items-center espacio-lateral">
+                    <div class="card">
+                        <img src="https://mediaim.expedia.com/destination/9/faa691949ed5dbb04d9d0adfcdc4adba.jpg"
+                            class="card-img-top" alt="Palacio de la Pureza celestial">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Palacio de la Pureza celestial</strong></h5>
+                            <p class="card-text">
+                                Conoce la historia de Pekín visitando este palacio y pasa
+                                un momento unico en las tiendas y templos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion Lista-->
+        <section id="" class="container seccion-lista">
+            <nav>
+                <ul class="row small-gutter cat-list relleno sin-punto">
+                    <li class="col-sm-6 col-lg-3">
+                        <i class="bi bi-person-walking">Actividades</i>
+                    </li>
+                    <li class="col-sm-6 col-lg-3">
+                        <i class="bi bi-building-fill">Hoteles</i>
+                    </li>
+                    <li class="col-sm-6 col-lg-3">
+                        <i class="bi bi-cart-fill">Compras</i>
+                    </li>
+                    <li class="col-sm-6 col-lg-3">
+                        <i class="bi bi-bus-front-fill">Transporte</i>
+                    </li>
+                    <li class="col-sm-6 col-lg-3">
+                        <i class="bi bi-train-front-fill">Trenes</i>
+                    </li>
+                    <li class="col-sm-6 col-lg-3">
+                        <i class="bi bi-bank">Bancos</i>
+                    </li>
+                    <li class="col-sm-6 col-lg-3">
+                        <i class="bi bi-hospital-fill">Hospitales</i>
+                    </li>
+                    <li class="col-sm-6 col-lg-3">
+                        <i class="bi bi-cookie">Comida</i>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <!-- Seccion Comida -->
+        <section id="comida" class="container seccion-Comida ">
+            <h1>Comida Tipica</h1>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center align-items-center espacio-lateral">
+                    <div class="card">
+                        <img src="https://media.traveler.es/photos/65defaff58deda492202fd03/master/w_1600,c_limit/KY528Y.jpg"
+                            class="card-img-top" alt="Sopa de wonton">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Sopa de wonton</strong></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center align-items-center espacio-lateral">
+                    <div class="card">
+                        <img src="https://media.traveler.es/photos/65defd56c5a701136a971677/master/w_1600,c_limit/CX7078.jpg"
+                            class="card-img-top" alt="Chow mein">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Chow mein</strong></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center align-items-center espacio-lateral">
+                    <div class="card">
+                        <img src="https://media.traveler.es/photos/640ee9ce10eb41bc5ba38197/master/w_1600,c_limit/GettyImages-1355921264.jpg"
+                            class="card-img-top" alt="Baozi">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Baozi</strong></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center align-items-center espacio-lateral">
+                    <div class="card">
+                        <img src="https://media.traveler.es/photos/65defee158deda492202fd05/master/w_1600,c_limit/D8A4K2.jpg"
+                            class="card-img-top" alt="Char siu">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Char siu</strong></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de pagina -->
+    <footer class="d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="img/china.png" alt="Logo del portafolio">
+
+        <p class="footer-texto text-center">
+            China
+        </p>
+        <div id="contactos" class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="mailto:022000299@upsrj.edu,mx" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+            </a>
+        </div>
+        <div class="derechos-de-autor">Creado por Ricardo Sinecio (2024) &#169;</div>
+    </footer>
+
+</body>
+
+</html>
