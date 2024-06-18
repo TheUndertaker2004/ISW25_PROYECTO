@@ -1,0 +1,247 @@
+body {
+    background-image: url('https://wallpapercave.com/wp/wp4791552.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+* {
+    border: 2px solid brown;
+    
+
+}
+
+
+p {
+    background-color: white;
+    color: black;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.imagen_centrada {
+    
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px solid black;
+    border-radius: 100%;
+
+}
+
+
+
+header {
+    width: 100%;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    position: sticky ;
+    background-color: #000000c7;
+    color: #fff;
+   
+   
+    
+}
+
+
+nav {
+   
+   
+    
+    background-color: #000000c7;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+   
+}
+
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+
+
+}
+
+.boton:hover {
+    color: #00bcd4;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+    
+}
+
+#check {
+    display: none;
+    
+}
+
+.logo {
+    height: 60px;
+    border-radius: 70px;
+}
+
+
+
+
+
+ul, ol {
+    list-style: none;
+}
+
+.nav>li {
+
+    float: left;
+
+
+}
+
+
+.nav li a {
+
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px 94.7px;
+    display: block;
+    position: left;
+
+}
+
+.nav li a:hover {
+    background-color: #434343;
+}
+
+.nav li ul {
+
+    display: none;
+    position: absolute;
+    min-width: 140px;
+
+}
+
+.nav li:hover>ul {
+    display: block;
+}
+
+.nav li ul li {
+
+    position: relative;
+
+}
+
+
+
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+   
+}
+
+
+
+.imagen_izquierda_dentro_texto
+		{
+			width: 200px;
+			float: left;
+			background-color: white;
+			border-radius: 10px;
+			text-align: center;
+			padding: 10px;
+			margin: 10px;
+			
+		}
+
+
+.imagen_derecha_dentro_texto {
+    width: 30%;
+    height: 200px;
+}
+
+.fondo_blanco {
+    color: black;
+    background-color: hsl(0, 0%, 100%, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    margin: 30px;
+    font-family: calibri;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.imagen_derecha_dentro_texto img {
+    width: 80%;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.margin_p{
+   
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+
+.izq {
+    width: 70%;
+    height: 200px;
+    
+}
+
+  
+
+
+.izq2 {
+    width: 30%;
+    height: 200px;
+}
+footer 
+		{
+              position: fixed;
+              
+            
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              background-color: black;
+              color: white;
+              text-align: center;
+        }
