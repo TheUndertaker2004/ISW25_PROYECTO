@@ -3,11 +3,21 @@ body
     width: 100vw;
     height: 100vh;
     background-color: rgb(215, 109, 109);
+    background-image: url(https://media.istockphoto.com/id/1158448833/es/foto/interior-de-la-cafeter%C3%ADa-de-la-tercera-ola.jpg?s=612x612&w=0&k=20&c=9kLK8tO3Ar2OO_gnHL4iAH7ttgZAmy8_fZtloLF4xqg=);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo
+{
+    width: 220px;
+    margin: 0px;
 }
 main
 {
+    margin-top: -10px;
     margin-left: 25%;
-    background-color: wheat;
+    background-color: rgba(255, 255, 255, 0.784);
     width: 50%;
     height: 65%;
     border-radius: 20px;
@@ -18,11 +28,17 @@ main
 }
 main h1
 {
+    color: red;
+    font-family:'Courier New', Courier, monospace ;
+    font-size:230%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     align-self: center;
 }
 main form
 {
     font-size: 125%;
+    margin-left: 10px;
 }
 main form .text 
 {
