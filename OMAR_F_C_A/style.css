@@ -1,0 +1,463 @@
+body 
+{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header
+{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+.elementosArriba
+{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.izquierdaNAVimagen
+{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 5%;
+}
+.izquierdaNAVimagen img 
+{
+    max-width: 100%;
+    height: 10vh; 
+}
+.izquierdaNAVtayqudo
+{
+    width: 8%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+    font-size: 34px;
+    color: #5a0883;
+}
+.centroNAV
+{
+    width: 35%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.derechaNAV
+{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+.botonLoginNAV
+{
+    border: 2px solid #380057;
+    color: white;
+    padding: 16px 30px;
+    background-color: #600996;
+    border-radius: 18px;
+}
+.signUpNAV
+{
+    border: 2px solid #3a0968;
+    color: #9c0594;
+    padding: 16px 30px;
+    border-radius: 18px;
+}
+
+
+.sizeElementos
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.contenedor 
+{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(28, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    position: relative;
+}
+.fingerMan
+{
+    grid-column: 12/29;
+    grid-row: 1/16;
+    background-color: #DAEDFE;
+}
+.imagenFingerMan
+{
+    width: auto;
+    height: 100%;
+    
+}
+.imagenFingerMan img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 16%;
+}
+.letsText
+{
+    white-space: nowrap;
+    font-size: 90px;
+    position: absolute;
+    top: -14%;
+    margin-left: 7%;
+}
+.dreamText
+{
+    white-space: nowrap;
+    font-size: 90px;
+    position: absolute;
+    top: -2%;
+    margin-left: 7%;
+    color: #49007d;
+}
+.withText
+{
+    white-space: nowrap;
+    font-size: 90px;
+    position: absolute;
+    top: 10%;
+    margin-left: 7%;
+}
+.tayqudoText
+{
+    white-space: nowrap;
+    font-size: 90px;
+    position: absolute;
+    top: 22%;
+    margin-left: 7%;
+    color: #2c0073;
+}
+.descriptionText
+{
+    white-space: nowrap;
+    font-size: 28px;
+    position: absolute;
+    top: 44%;
+    margin-left: 7%;
+}
+.objetoAzul
+{
+    grid-column: 3/6;
+    grid-row: 14/16;
+    background-color: #DAEDFE;
+    border-radius: 14px;
+}
+.digitalMarketing
+{
+    grid-column: 5/16;
+    grid-row: 12/15;
+    border-radius: 26px;
+    background-color: #FDFDFB;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.gridBotonDM
+{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+.yourWantWorkSpace
+{
+    grid-column: 2/6;
+    grid-row: 2/3;
+}
+.SegundoContenedor
+{
+    background-color: #F2F2F2;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(67, 1fr);
+    grid-template-rows: repeat(45, 1fr);
+    position: relative;
+}
+
+.UiUxDesImagen
+{
+    grid-column: 10/25;
+    grid-row: 4/12;
+    background-color: white;
+}
+.UiUxDesImagen img
+{
+    width: 100%;
+    height: 100%;
+    size-adjust: auto;
+    
+}
+.UiUxTexto
+{
+    grid-column: 10/25;
+    grid-row: 12/19;
+    background-color: white;
+}
+.TextoGrandeApartados2Sec
+{
+    color: black;
+    font-size: x-large;
+    text-align: center;
+}
+.textoGris2section
+{
+    color: #939391;
+    text-align: center;
+}
+.segundoRecuadroUiUxDes
+{
+    grid-column: 10/25;
+    grid-row: 19/23;
+    background-color:#860000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.applyNowBoton
+{
+    color: white;
+    text-align: center;
+    font-size: 26px;
+}
+
+.frontEnd
+{
+    grid-column: 10/25;
+    grid-row: 24/32;
+    background-color: white;
+}
+.frontEnd img
+{
+    width: 100%;
+    height: 100%;
+}
+.frontEndTexto
+{
+    grid-column: 10/25;
+    grid-row: 32/39;
+    background-color: white;
+}
+.frontEndBoton
+{
+    grid-column: 10/25;
+    grid-row: 39/43;
+    background-color:#860000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyWriter
+{
+    grid-column: 26/41;
+    grid-row: 4/12;
+    background-color: white;
+}
+.copyWriter img
+{
+    width: 100%;
+    height: 100%;
+}
+.copyWriterImagen
+{
+    grid-column: 26/41;
+    grid-row: 12/19;
+    background-color: white;
+}
+.copyWriterTexto
+{
+    grid-column: 26/41;
+    grid-row: 19/23;
+    background-color: #860000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*galeria de fotos*/
+.photoGrapher
+{
+    grid-column: 26/41;
+    grid-row: 24/32;
+    background-color: white;
+}
+.photoGrapher img
+{
+    width: 100%;
+    height: 100%;
+}
+.photoGrapherTexto
+{
+    grid-column: 26/41;
+    grid-row: 32/39;
+    background-color: white;
+}
+.photoGrapherBoton
+{
+    grid-column: 26/41;
+    grid-row: 39/43;
+    background-color: #860000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marketingDigital2section
+{
+    grid-column: 42/57;
+    grid-row: 4/12;
+    background-color: white;
+}
+.marketingDigital2section img
+{
+    width: 100%;
+    height: 100%;
+}
+.marketingDigital2sectionImagen
+{
+    grid-column: 42/57;
+    grid-row: 12/19;
+    background-color: white;
+}
+.marketingDigital2sectionBoton
+{
+    grid-column: 42/57;
+    grid-row: 19/23;
+    background-color: #860000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mechanicalEngineering
+{
+    grid-column: 42/57;
+    grid-row: 24/32;
+    background-color: white;
+}
+.mechanicalEngineering img
+{
+    width: 100%;
+    height: 100%;
+}
+.mechanicalEngineeringTexto
+{
+    grid-column: 42/57;
+    grid-row: 32/39;
+    background-color: white;
+}
+.mechanicalEngineeringBoton{
+    grid-column: 42/57;
+    grid-row: 39/43;
+    background-color: #860000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+footer
+{
+    width: 100vw;
+    height: 50vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+.tayqudoLetraLogo
+{
+    grid-column: 2/6;
+    grid-row: 3/5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tayqudoLetraLogo img
+{
+    width: 25%;
+    height: 50%;
+}
+.footerTayqudo
+{
+    color: white;
+    font-size: x-large;
+}
+.letrasLatinFooter
+{
+    grid-column: 2/6;
+    grid-row: 5/7;
+    display: flex;
+    text-align: center;
+}
+.SolutionsFooter
+{
+    grid-column: 7/11;
+    grid-row: 3/7;
+}
+.letrasFooterContainers
+{
+    color: white;
+}
+.aboutFooter
+{
+    grid-column: 11/14;
+    grid-row: 3/7;
+}
+.companyFooter
+{
+    grid-column: 14/17;
+    grid-row: 3/7;
+}
+.contactFooter
+{
+    grid-column: 17/20;
+    grid-row: 3/7;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  .swiper-container {
+    width: 50%;
+    height: 50%; /* O ajusta la altura según tus necesidades */
+    border-radius: 30%;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto; /* Para mantener la proporción de la imagen */
+}
+
+
+
+
+
