@@ -4,11 +4,7 @@ body
 	margin: 0;
     font-family: 'Arial', sans-serif;
 }
-img
-{
-    width: 35%;
-    height: 35%;
-}
+
 .illitabout
 {
     background-color: white;
@@ -19,36 +15,80 @@ img
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.illitmembers
+{
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.illitcareer
+{
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.fila {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between; 
+} 
+img
+{
+    width: 35%;
+    height: auto; 
+    max-width: 100%;
+}
+.ima
+{
+    width: 35%;
+    height: auto; /
+    max-width: 100%;
+}
+.diviabout
+{
+    text-align: left;
+    width: 70%;
+    margin-left: 20%;
+}
 .divi
 {
-	margin-right: 50px;
-	margin-left: 50px;
-	background-color: rgba(79,0,131,0.3);
-	border-radius: 20px;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-
+    width: 100%; 
+    max-width: 80%; 
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center; 
+    margin-bottom: 10px; 
 }
-.divi2
+.divi2 
 {
-	margin-right: 600px;
-	margin-left: 220px;
-	border-radius: 5px;
-	padding-right: 5px;
-	padding-top: 5px;
-	padding-bottom: 10px;
+    width: 100%; 
+    max-width: 80%; 
+    border-radius: 20px;
+    padding: 10px;
+    text-align: left; 
+    margin-bottom: 10px; 
 }
-.divi3
+.divinfo
 {
-	margin-right: 270px;
-	margin-left: 420px;
+    text-align: left;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 10%;
 }
-.divi4
+.albumSRM
 {
-	padding-left: 3px;
-	padding-right: 1000px;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 10%;
 }
 .parallax-container 
 {
@@ -65,7 +105,7 @@ img
 .navbar 
 {
     overflow: hidden;
-    background-color: MediumOrchid;
+    background-color: rgb(200, 132, 218);
     position: fixed;
     top: 0;
     width: 100%;
@@ -80,28 +120,8 @@ img
 }
 .navbar a:hover 
 {
-    background-color: Indigo;
+    background-color: rgb(96, 107, 176);
     color: black;
-}
-
-table
-{
-    border-collapse: collapse;
-    width: 77%;
-    margin: 20px;
-}
-td
-{
-    text-align: justify;
-    padding: 5px;
-}
-.texto
-{
-	font-weight: bold;
-}
-.texto2
-{
-	line-height: 1.5;
 }
 h1, h2
 {
@@ -109,7 +129,7 @@ h1, h2
 	font-size: 10em;
     color:  #ddccff;
     margin-top: 50px;
-    text-shadow: 2px 2px 4px rgba(102, 0, 204, 0.5);
+    text-shadow: 2px 2px 4px rgb(104,104,104);
 }
 .centrado
 {
