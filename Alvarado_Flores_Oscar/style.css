@@ -1,0 +1,71 @@
+body
+{   
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(215, 109, 109);
+    background-image: url(https://media.istockphoto.com/id/1158448833/es/foto/interior-de-la-cafeter%C3%ADa-de-la-tercera-ola.jpg?s=612x612&w=0&k=20&c=9kLK8tO3Ar2OO_gnHL4iAH7ttgZAmy8_fZtloLF4xqg=);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo
+{
+    width: 220px;
+    margin: 0px;
+}
+main
+{
+    margin-top: -10px;
+    margin-left: 25%;
+    background-color: rgba(255, 255, 255, 0.784);
+    width: 50%;
+    height: 68%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: larger;
+    display: flex;
+    flex-direction: column; 
+    box-shadow: 1px 1px 20px black;
+}
+main h1
+{
+    color: red;
+    font-family:'Courier New', Courier, monospace ;
+    font-size:230%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+main form
+{
+    font-size: 125%;
+    margin-left: 10px;
+}
+main form .text 
+{
+    height: 9%;
+    width: 90%;
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 10px;
+    font-size: 85%;
+    margin-bottom: 10px;
+    
+}
+form a
+{
+    color: red;
+    text-decoration:underline;
+    text-emphasis-color: red;
+}
+form .send
+{
+    font-size: 100%;
+    height: 10%;
+    width: 80%;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin-left: 30px;
+    border-color: red;
+}
