@@ -1,0 +1,104 @@
+/*Fuentes: https://fonts.google.com/ */
+
+body
+{
+    background-image: url(https://wallpaperaccess.com/full/1196254.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1
+{
+    color: rgba(246, 255, 248, 0.997);
+    text-align: center;
+    font-size: 500%;
+    background: url(https://wallpaperaccess.com/full/1195931.jpg);
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 50px;
+    font-family: 'Caesar Dressing', system-ui;
+    border: 3px double rgb(31, 163, 215);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+h2
+{
+    font-family: 'Rubik Burned', system-ui;
+    background-image: url(https://wallpaperaccess.com/full/1195931.jpg);
+    color: white;
+    font-size: 350%;
+    text-align: center;
+    border: 3px groove rgb(31, 163, 215);
+    border-radius: 8px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px
+}
+h3
+{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+p
+{
+    color: white;
+    font-size: 225%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/*ESTA es una clase*/
+.imagenCentrada
+{
+    width: 1440px;
+    height: 1080px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border: 3px ridge rgba(16, 229, 151, 0.922);
+    border-radius: 80px;
+}
+nav
+{
+    background-image: url(https://images.pexels.com/photos/5465018/pexels-photo-5465018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+    border: 3px ridge rgba(16, 229, 151, 0.922);
+    border-radius: 80px;
+}
+nav a
+{
+    color: white;
+    text-decoration: none;
+    font-family: 'Macondo', cursive;
+    padding: 2px 30px;
+    font-size: xx-large;
+    font-size: 450%;
+}
+nav a:hover
+{
+    color:  white; /* Cambia el color del texto cuando se pasa el cursor por encima */
+    background-color: rgba(16, 229, 151, 0.922); /* Cambia el color de fondo cuando se pasa el cursor por encima */
+    border-color: rgba(16, 229, 151, 0.922);
+}
+iframe
+{
+    width: 1440px;
+    height: 1080px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-radius: 100px;
+}
+.centradoLista
+{
+    text-align: center;
+}
