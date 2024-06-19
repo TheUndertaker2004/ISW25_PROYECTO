@@ -1,0 +1,119 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header 
+{
+    background-color: #ffffff;
+    color: #000000;
+    padding:5px;
+    text-align: left;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9); 
+}
+
+nav 
+{
+    position: absolute;
+    top: 9%; 
+    right: 5%; 
+    padding: 10px;
+}
+
+nav a 
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 60px;
+    position: relative; 
+}
+
+nav a::after 
+{
+    content: ''; 
+    position: absolute;
+    bottom: -3px; 
+    left: 0;
+    width: 0;
+    height: 2px; 
+    background-color: transparent; 
+    transition: width 0.3s ease; 
+}
+
+nav a:hover::after {
+    width: 100%; 
+    background-color: #43015e; 
+}
+
+nav a:hover
+{
+    color: #43015e ;
+}
+
+.user
+{
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    margin-left: 5%;
+    font-family: 'Play', sans-serif;
+}
+
+.user-photo
+{
+    width: 300px;
+    height: 300px;
+    margin-left: 6%;
+}
+
+.user-info
+{
+    background-color: rgb(255, 255, 255);
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.info
+{
+  color:rgb(105, 97, 97) ;
+  font-size: 20px;
+  border: 2px solid rgb(105, 97, 97);
+  border-radius: 5px;
+  padding: 7px;
+  display: inline-block;
+}
+
+button
+{
+  background-color: blueviolet;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer; /* Para que el cursor cambie al modo apuntado */
+}
+
+button:hover
+{
+    background-color: rgb(47, 6, 85);
+}
+
+.comentario
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+textarea
+{
+    min-width: 800px;
+    max-width: 800px;
+}

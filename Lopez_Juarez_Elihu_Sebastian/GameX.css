@@ -1,0 +1,470 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header 
+{
+    background-color: #ffffff;
+    color: #000000;
+    padding:0;
+    margin-top: -50px;
+    text-align: left;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9); 
+}
+
+.quieto
+{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav 
+{
+    position: absolute;
+    top: 15%; 
+    right: 5%; 
+    padding: 10px;
+}
+
+nav a 
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 60px;
+    position: relative; 
+}
+
+nav a::after 
+{
+    content: ''; 
+    position: absolute;
+    bottom: -3px; 
+    left: 0;
+    width: 0;
+    height: 2px; 
+    background-color: transparent; 
+    transition: width 0.3s ease; 
+}
+
+nav a:hover::after {
+    width: 100%; 
+    background-color: #43015e; 
+}
+
+nav a:hover
+{
+    color: #43015e ;
+}
+
+footer
+{
+    background-color: black;
+    padding: 5px;
+    bottom: 0;
+}
+
+article
+{
+    position: relative;
+    width: 400px;
+    transition: all .3s ease;
+}
+
+article img:first-child
+{
+    box-shadow: 0 60px 60px -60px rgba(0,30,255,0.5);
+    border-radius: 4px;
+    object-fit: cover;
+    width: 100%;
+}
+
+article img:last-child
+{
+    position: absolute;
+    width: 200px;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin:auto;
+    transform: translateY(25%);
+    transition: .3s ease;
+    opacity: 0;
+}
+
+article:hover
+{
+    transform: perspective(250px)
+    rotateX(10deg)
+    translateY(-5%)
+    translateZ(0);
+}
+
+article::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom,
+    transparent 10%,rgba(0,0,0,0.5)50%,
+    rgba(0,0,0)95%);
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+article:hover::before
+{
+    opacity: 1;
+}
+
+article:hover img:last-child
+{
+    opacity: 1;
+    transform: translateY(10%);
+}
+
+table
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+}
+
+
+
+/*--------------------------- TITULOS ----------------------------*/
+
+.titulo-principal
+{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.final
+{
+    color: rgb(255, 0, 140);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+
+/*--------------------------- XBOX ----------------------------*/
+.title-xbox
+{
+    color: white;
+    font-size: 70px;
+}
+
+.title-consolasX
+{
+ color:rgb(47, 160, 47);
+ font-size: 70px;
+ background-color: white;
+ border-radius: 15px;
+ padding: 6px;
+ display: inline-block;
+ box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+ margin-left: 35%;
+}
+
+.title-GameSalesX
+{
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    border-bottom: 10px solid rgb(255, 251, 0); /* Borde inferior de 2 píxeles de grosor, de color negro */
+    padding-bottom: 8px; 
+}
+
+.title-GamesX
+{
+    color:rgb(47, 160, 47);
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 35%;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.exclusivos
+{
+    font-size: 30px;
+    color:rgb(47, 160, 47);
+    font-weight: bold; 
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+}
+
+.title-consolasG
+{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 1%;
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+/*--------------------------- PLAYSTATION ----------------------------*/
+
+.title-consolasP
+{
+ color:rgb(255, 255, 255);
+ font-size: 70px;
+ background-color: rgb(179, 39, 39);
+ border-radius: 15px;
+ padding: 6px;
+ display: inline-block;
+ box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+ margin-left: 35%;
+}
+
+.title-GameSalesP
+{
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    border-bottom: 10px solid rgb(234, 0, 255); /* Borde inferior de 2 píxeles de grosor, de color negro */
+    padding-bottom: 8px; 
+}
+
+.title-GamesP
+{
+    color:rgb(255, 255, 255);
+    background-color: rgb(20, 158, 112);
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 35%;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.exclusivosP
+{
+    font-size: 30px;
+    color:rgb(4, 14, 68);
+    font-weight: bold; 
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+}
+
+.title-consolasG
+{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 2%;
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+/*--------------------------- NINTENDO ----------------------------*/
+
+.title-consolasN
+{
+ color:rgb(177, 12, 12);
+ font-size: 70px;
+ background-color: rgb(255, 255, 255);
+ border-radius: 15px;
+ padding: 6px;
+ display: inline-block;
+ box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+ margin-left: 35%;
+}
+
+.title-GameSalesN
+{
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    border-bottom: 10px solid rgb(255, 255, 255); /* Borde inferior de 2 píxeles de grosor, de color negro */
+    padding-bottom: 8px; 
+}
+
+.title-GamesN
+{
+    color:rgb(177, 12, 12);;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 35%;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.exclusivosN
+{
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+    font-weight: bold; 
+    text-align: center;
+    padding: 4px;
+}
+
+.title-consolasG
+{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 2%;
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+/*--------------------------- ENCUESTA ----------------------------*/
+
+.fondo-esteril
+{
+    background-color: rgb(255, 255, 255);
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+label
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+input
+{
+    padding: 8px;
+    border: 1 solid white;
+}
+
+.send_button
+{
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.send_button:hover
+{
+    background-color: rgb(62, 20, 102);  
+}
+
+
+/*--------------------------- FONDOS ----------------------------*/
+
+.fondo-xbox
+{
+    background-color: rgb(47, 160, 47);
+    padding: 3px;
+}
+
+.fondo-playstation
+{
+    background-color: rgb(3, 57, 128);
+    padding: 3px;
+}
+
+.fondo-nintendo
+{
+    background-color: rgb(177, 12, 12);
+    padding: 3px;
+}
+
+.fondo-premium
+{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.9), transparent), black; /* Degradado superior */
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+}
+/*--------------------------- IMAGENES ----------------------------*/
+
+.ContenedorXbox
+{
+  text-align: center;
+}
+
+
+.ContenedorXbox img
+{
+    width: 400px;
+    height: 400px;
+}
+
+.ContenedorXbox img:hover
+{
+    scale: 1.1;
+}
+
+/*-------------------------------------------------------------------*/
+
+.ContenedorPlay
+{
+  text-align: center;
+}
+
+
+.ContenedorPlay img
+{
+    width: 400px;
+    height: 400px;
+}
+
+.ContenedorPlay img:hover
+{
+    scale: 1.1;
+}
+
+/*-------------------------------------------------------------------*/
+.ContenedorNintendo
+{
+  text-align: center;
+}
+
+
+.ContenedorNintendo img
+{
+    width: 400px;
+    height: 400px;
+}
+
+.ContenedorNintendo img:hover
+{
+    scale: 1.1;
+}
+/*-------------------------------------------------------------------*/
+
+.videos
+{
+    text-align: center;
+}
