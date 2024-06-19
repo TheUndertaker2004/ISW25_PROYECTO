@@ -1,0 +1,193 @@
+/*
+    PAGINA WEB DISEÑADA POR: ELEASID DEL ANGEL FLORES RODRIGUEZ  
+    FECHA: 18 DE ENERO DEL 2024
+    PROYECTO: PAGINA WEB CON HTML Y CSS
+    MATERIA: PROGRAMACION WEB
+    GRUPO: ISW-25
+*/
+
+body {
+    background-color: #2D6187;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #28ABB9;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    /*position: fixed;*/
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: #230f86;
+}
+
+.nav-link {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #230f86;
+}
+
+section {
+    color: #000000;
+    padding: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 30px; 
+    margin-left: 20px; 
+    background-color: #EFFAD3;
+    border-radius: 8px;
+}
+
+.video-container {
+    text-align: center; 
+    margin: 0 auto; 
+    max-width: 100%; 
+}
+
+.imagenes {
+    background-color: hsla(37, 83%, 42%, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 30px;
+    font-family: calibri;
+    display: inline-block;
+}
+
+.imagenes section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imagenes img {
+    width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.imagen_derecha {
+	width: 200px;
+	float: right;
+	background-color: #A8DDA8;
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;	
+}
+
+.imagen_derecha img {
+	width: 200px;
+    height: 400px;
+	border-radius: 10px;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imagen_izquierda {
+    width: 200px;
+    float: left;
+    background-color: #A8DDA8;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.imagen_izquierda img {
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.table-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 10px;
+    text-align: left; 
+    vertical-align: top; 
+    border-bottom: 1px solid #ddd;
+}
+  
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+  
+#FESTIVALES {
+    padding: 20px;
+    background-color: #EFFAD3;
+}
+  
+.festival {
+    margin-bottom: 20px;
+}
+  
+.festival h3 {
+    color: #333;
+}
+  
+.festival p {
+    color: #666;
+}
+  
+.festival img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #A8DDA8;
+    color: #000000;
+    text-align: center;
+    padding: .1px;
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+}
