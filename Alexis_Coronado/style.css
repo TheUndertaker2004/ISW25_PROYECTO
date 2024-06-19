@@ -1,0 +1,184 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: Trebuchet MS;
+    background: url('https://animecorner.me/wp-content/uploads/2020/12/jjk.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow-x: hidden; /* Evita el scroll lateral */
+}
+
+header{
+    background-color: #2b2b2b9d; /* Fondo del header más oscuro */
+    margin-bottom: 15%;
+}
+
+nav{
+    padding: 1em;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #1c1c1c; /* Fondo del nav igual que el body */
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #e5e5e5; /* Color de texto claro */
+}
+
+nav a:hover {
+    color: #f44747; /* Rojo para el hover */
+}
+
+header .imagen-principal {
+    position: relative;
+}
+
+header .imagen-principal .image {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    top: 0;
+    bottom: 0;
+}
+
+header .imagen-principal .texto-overlay {
+    position: absolute;
+    padding-top: 20.0%;
+    padding-bottom: 1.5%;
+    padding-left: 2.5%;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e5e5e5; /* Color de texto claro */
+    width: 97.7%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(52, 52, 52, 0.023));
+    text-align: left;
+    font-size: larger;
+}
+
+.imagenjuju{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50%;
+    width: 50%;
+    padding-bottom: 2%;
+}
+
+header .imagen-principal .texto-overlay h1,
+header .imagen-principal .texto-overlay p {
+    /*where is the jujutsu kaisen written*/
+    margin: 0;
+    font-size: 250%;
+    color: #f44747; 
+}
+
+.imagenchirris{
+    width: 20%;
+    padding-left: 40%;
+}
+
+.section {
+    border-radius: .3%;
+    margin: 5%;
+    background-color: #2b2b2b; 
+    padding: 4%;
+    color: #e5e5e5; 
+}
+
+.section h2,
+.section p {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.character-image {
+    width:50%; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #555; /* Color de borde oscuro */
+}
+
+th {
+    background-color: #333; /* Fondo de encabezado de tabla oscuro */
+    color: #e5e5e5; /* Color de texto claro */
+}
+
+iframe {
+    padding: .1%;
+    margin-left: 22.5%; 
+    margin-top: 2%;
+    background-color: #1c1c1c; /* Fondo del iframe igual que el body */
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 300px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #333; /* Fondo de los inputs oscuro */
+    color: #e5e5e5; /* Color de texto claro */
+    border: 1px solid #555; /* Borde oscuro */
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f44747; /* Fondo del botón rojo */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    color: #f44747; /* Color de texto rojo */
+    background-color: white; /* Fondo blanco */
+}
+
+footer {
+    background-color: #2b2b2b; /* Fondo del footer más oscuro */
+    color: #e5e5e5; /* Color de texto claro */
+    text-align: center;
+    padding: 10px;
+    width: 100%; /* Asegura que el footer tome todo el ancho */
+    position: absolute; /* Asegura que el footer esté en la parte inferior */   
+    left: 0;
+}
