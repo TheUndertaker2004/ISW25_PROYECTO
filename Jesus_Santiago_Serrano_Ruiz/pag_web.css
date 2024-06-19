@@ -1,0 +1,507 @@
+/* TERMINADO */
+body {
+    background-image: url(https://puropop.com.br/wp-content/uploads/2014/02/WWE-Network-Logo-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1
+{
+    color: rgb(255, 255, 255);
+}
+
+p
+{
+    color: black;
+}
+
+
+header {
+    background-image: url(https://www.wwe.com/f/styles/shows_header_xl/public/all/2024/05/20240524_Superstars_Header--2426e773425d09b60cd01fa302958266.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #FFF;
+    text-align: center;
+    padding: 80px;
+}
+
+.subtitulos {
+    background-color: gold;
+    color: #000000;
+    padding: 8px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 15px;
+}
+
+.header_img
+{
+    width: 60px;
+    margin-top: 5px;	
+}
+
+.seccion_fondito
+{
+    background-image: url(https://www.wwe.com/f/styles/shows_header_xl/public/all/2024/05/20240524_Superstars_Header--2426e773425d09b60cd01fa302958266.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #FFF;
+    text-align: center;
+    padding: 80px;
+}
+
+.seccion_fondito h1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(114, 0, 0);
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+a:hover {
+    color: rgb(57, 22, 22);
+    text-shadow: 0px 0px 10px white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(114, 0, 0);
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+section {
+    padding: 20px;
+}
+
+
+.galeria_fondo_gris
+{
+    color:black;
+    background-color: hsla(0, 1%, 26%, 0.7);
+    border-radius: 15px;
+    border: 5px solid black;
+    margin: 50px;
+    
+}
+
+.galeria_fondo_gris section
+{
+    height: 250px;
+    margin: auto;
+    display: flex;
+    width: 80%;
+}
+
+.galeria_fondo_gris img
+{
+    width: 0px;
+    height: auto;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 1;
+    filter: grayscale(100%);
+    transition: .5s ease;
+    
+}
+
+.galeria_fondo_gris img:hover
+{
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.fondo_rojo
+{
+    color:black;
+    background-color: hsla(0, 100%, 50%, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    border: 5px solid black;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.fondo_rojo h4
+{
+    font-size: 35px;
+}
+.imagen_derecha_dentro_texto
+{
+    width: 250px;
+    float: right;
+    background-color: rgb(58, 58, 56);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;    
+}
+.imagen_derecha_dentro_texto img
+{
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fondo_marcas
+{
+    color:white;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 50px;
+    font-family: verdana;
+}
+
+.fondo_all_superstars
+{
+    color:white;
+    background-color: rgb(1, 61, 135);
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 30px;
+    font-family: verdana;
+}
+
+.fondo_raw
+{
+    color:white;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 30px;
+    font-family: verdana;
+}
+
+.fondo_smackdown
+{
+    color:white;
+    background-color: hsla(208, 100%, 50%);
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 30px;
+    font-family: verdana;
+}
+
+.fondo_nxt
+{
+    color:white;
+    background-color: rgb(212, 181, 22);
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 30px;
+    font-family: verdana;
+}
+
+
+
+.galeria_superstars_raw
+{
+    background-color: hsla(0, 100%, 50%, 0.495);
+    border-radius: 15px;
+    border: 5px solid black;
+    margin: 30px;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+.galeria_superstars_smackdown
+{
+    background-color: hsla(208, 100%, 50%, 0.7);
+    border-radius: 15px;
+    border: 5px solid black;
+    margin: 30px;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+.galeria_superstars_nxt
+{
+    background-color: hsla(55, 86%, 47%, 0.7);
+    border-radius: 15px;
+    border: 5px solid black;
+    margin: 30px;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+.gallery-SUPERSTARS {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.gallery-SUPERSTARS-item {
+    position: relative;
+    margin: 10px;
+    width: calc(20% - 20px); /* 20% para 5 columnas, con margen */
+    max-width: 200px; /* Máximo ancho para evitar imágenes excesivamente grandes */
+    overflow: hidden;
+
+}
+
+.gallery-SUPERSTARS-item a 
+{
+    display: block; /* Hacer que el enlace ocupe todo el contenedor */
+}
+
+.gallery-SUPERSTARS-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+.caption-SUPERSTARS 
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.7)); /* Añade degradado para la sombra */
+    font-size: 20px; /* Tamaño de fuente base */
+
+}
+
+.gallery-SUPERSTARS-item img:hover
+{
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+    .gallery-SUPERSTARS-item {
+        width: calc(50% - 20px); /* Dos columnas en pantallas más pequeñas */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .gallery-SUPERSTARS-item {
+        width: calc(100% - 20px); /* Una columna en pantallas aún más pequeñas */
+    }
+}
+
+
+.container_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_logo div a
+{
+    display:contents; /* Hacer que el enlace ocupe todo el contenedor */
+}
+
+.logo_raw {
+    width: 25%;
+    height: auto;
+    margin: 0 auto; /* Esto centra horizontalmente la imagen */
+    display: block; /* Esto asegura que los márgenes automáticos funcionen correctamente */
+
+}
+
+.logo_smackdown {
+    width: 30%;
+    height: auto;
+    margin: 0 auto; /* Esto centra horizontalmente la imagen */
+    display: block; /* Esto asegura que los márgenes automáticos funcionen correctamente */
+
+}
+
+.logo_nxt {
+    width: 25%;
+    height: auto;
+    margin: 0 auto; /* Esto centra horizontalmente la imagen */
+    display: block; /* Esto asegura que los márgenes automáticos funcionen correctamente */
+
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table img
+{
+    width: 90%;
+    height: auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+    font-family: verdana;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.fondo_eventos
+{
+    background-color: hsla(36, 100%, 50%, 0.7);
+    border-radius: 15px;
+    border: 5px solid black;
+    border: 5px solid black;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.fondo_eventos_titulo
+{
+    color:white;
+    background-color:hsla(36, 100%, 50%);
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    font-family: verdana;
+}
+footer 
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+footer p
+{
+    color: white;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header-raw {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.modal-header-smackdown {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.modal-header-nxt {
+    background-color: gold;
+    color: black;
+    padding: 10px;
+    font-size: 24px;
+}
