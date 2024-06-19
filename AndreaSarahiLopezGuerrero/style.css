@@ -1,0 +1,802 @@
+
+/*IMAGENES EN TEXTO*/
+/*ubicacion*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-item {
+    margin: 10px;
+}
+.gallery-item iframe {
+    border: none;
+}
+/*gatronomia seccion5*/
+.gallery_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery_div img {
+    width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.contenedor {
+    display: flex;
+  }
+  
+  .contenedor img {
+    width: 50%; /* Tamaño de la imagen */
+  }
+  
+  .contenedor p {
+    width: 50%; /* Tamaño del texto */
+    padding-left: 20px; /* Espacio entre la imagen y el texto */
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+li strong {
+    color: #fdfdfd;
+}
+
+img {
+    width: 600px; /* Ancho deseado para las imágenes */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción de la imagen */
+    margin-bottom: 10px; /* Reduje el espacio entre la imagen y el nombre del restaurante */
+}
+
+/*idioma seccion 4...*/
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+    justify-content: center; /* Centra las columnas horizontalmente */
+    align-items: center; /* Centra las filas verticalmente */
+    gap: 20px; /* Espacio entre las imágenes */
+  }
+  
+  .imagen {
+    width: 100%; /* Ajusta el ancho de la imagen */
+    text-align: center; /* Centra la imagen dentro del contenedor */
+  }
+  
+  .imagen img {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen al 100% del contenedor */
+  }
+  .videos-wrapper {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+  }
+  
+  .videos-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+  }
+  
+  .videos-container iframe {
+    margin-right: 20px; /* Espacio entre los videos */
+  }
+  
+
+/*informacion seccion 1...*/
+#informacion {
+    overflow: hidden; 
+}
+
+#informacion .contenido {
+    float: left; 
+    width: 95%; 
+    padding-right: 20px;
+}
+
+#informacion img {
+    float: right;
+    width: 45%; 
+    margin-left: 2px; 
+    margin-bottom: 10px;
+}
+#informacion .contenido {
+    float: left; 
+    width: 95%; 
+    padding-right: 20px;
+}
+/*TEXTO*/
+/*informacion...*/
+#informacion p {
+    color: #ffffff; 
+    padding-right: 20px;
+    text-align: justify;
+    margin-left: 50px; /* Ajusta este valor según lo que desees */
+    font-size: 20px; /* Cambia el tamaño según tus preferencias */
+}
+#informacion {
+    text-align: center; /* Centra el contenido del contenedor */
+}
+/*religion...*/
+#religion p {
+    color: #ffffff; 
+    padding-right: 20px;
+    text-align: justify;
+    margin-left: 50px; /* Ajusta este valor según lo que desees */
+    font-size: 20px; /* Cambia el tamaño según tus preferencias */
+}
+#religion {
+    text-align: center; /* Centra el contenido del contenedor */
+}
+/*idioma...*/
+#idioma p {
+    color: #ffffff; 
+    padding-right: 20px;
+    text-align: justify;
+    margin-left: 50px; /* Ajusta este valor según lo que desees */
+    font-size: 20px; /* Cambia el tamaño según tus preferencias */
+}
+#idioma {
+    text-align: center; /* Centra el contenido del contenedor */
+}
+/*gastronomia...*/
+#gastronomia p {
+    color: #ffffff; 
+    padding-right: 20px;
+    text-align: justify;
+    margin-left: 50px; /* Ajusta este valor según lo que desees */
+    font-size: 20px; /* Cambia el tamaño según tus preferencias */
+}
+#gastronomia {
+    text-align: center; /* Centra el contenido del contenedor */
+}
+/*ubicacion...*/
+#ubicacion p {
+    color: #ffffff; 
+    padding-right: 20px;
+    text-align: justify;
+    margin-left: 50px; /* Ajusta este valor según lo que desees */
+    font-size: 20px; /* Cambia el tamaño según tus preferencias */
+}
+#ubicacion {
+    text-align: center; /* Centra el contenido del contenedor */
+}
+/*titulos...*/
+h1 {
+    color:  hsl(200, 20%, 97%); 
+    padding-right: 20px;
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: 20px; /* Añade margen abajo del título */
+    margin-left: 50px;
+}
+#religion p {
+    color:#ffffff; 
+    padding-right: 20px;
+    text-align: justify;
+}
+/*PIE DE PAGINA*/
+footer {
+    background-color:#a7845c;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/*BOTONES*/
+* {
+    margin: 0;
+    padding: auto;
+    box-sizing: content-box;
+  } 
+/* Estilos para los botones */
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: center; /* Cambiar a flex-start */
+    margin-top: 70px; /* Añadir un margen superior para separar los botones del encabezado */
+}
+
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 35px;
+    height: 35px;
+    line-height: 4px;
+    text-align: center;
+    color: hsl(33, 43%, 9%);
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(156, 105, 105, 0.1);
+    transition: all .2s ease-in-out;
+    margin-right: 5px; /* Ajustar el margen entre los botones */
+}
+
+.buttons a:last-child {
+    margin-right: 0; /* No aplicar margen derecho al último botón */
+}
+
+.buttons a:hover {
+    transform: scale(1.2);
+}
+/*SECTION*/
+#informacion {
+    text-align: left; /* Alinea el texto a la izquierda */
+    background-color: hsla(217, 77%, 28%, 0.908); 
+    max-width: 980px; /* Establece un ancho máximo para el texto */
+    margin: 0 auto;
+    padding: 90px 250px 250px; /* Ajusta el padding para que el texto se mueva hacia arriba */
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#religion {
+    text-align: left; /* Alinea el texto a la izquierda */
+    background-color: hsla(217, 77%, 28%, 0.908); 
+    max-width: 980px; /* Establece un ancho máximo para el texto */
+    margin: 0 auto;
+    padding: 90px 250px 250px; /* Ajusta el padding para que el texto se mueva hacia arriba */
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#idioma {
+    text-align: left; /* Alinea el texto a la izquierda */
+    background-color: hsla(217, 77%, 28%, 0.908); 
+    max-width: 980px; /* Establece un ancho máximo para el texto */
+    margin: 0 auto;
+    padding: 90px 250px 250px; /* Ajusta el padding para que el texto se mueva hacia arriba */
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#gastronomia {
+    text-align: left; /* Alinea el texto a la izquierda */
+    background-color: hsla(217, 77%, 28%, 0.908); 
+    max-width: 980px; /* Establece un ancho máximo para el texto */
+    margin: 0 auto;
+    padding: 90px 250px 250px; /* Ajusta el padding para que el texto se mueva hacia arriba */
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#ubicacion {
+    text-align: left; /* Alinea el texto a la izquierda */
+    background-color: hsla(217, 77%, 28%, 0.908); 
+    max-width: 980px; /* Establece un ancho máximo para el texto */
+    margin: 0 auto;
+    padding: 90px 250px 250px; /* Ajusta el padding para que el texto se mueva hacia arriba */
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*BODY*/
+body {
+    background-image: url('https://images.pexels.com/photos/6662557/pexels-photo-6662557.jpeg?auto=compress&cs=tinysrgb&w=600');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+/*ENCABEZADO*/
+header {
+    padding: 1em;
+    text-align: center;
+    margin-bottom: -90px; 
+}
+
+header:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://media.giphy.com/media/2YjYpOl1eBy6I/giphy.gif');
+    background-color: hsla(194, 73%, 71%, 0.442);
+    opacity: .3;
+    z-index: -3;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+/*NAVEGACIÓN*/
+nav {
+    background-color: #bc976c;
+    color: #131212;
+    padding: 1.5em;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-family: "Verdana", serif;
+    font-weight: bold;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.navbar a:hover{
+    color: hsla(217, 83%, 12%, 0.908);
+}
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+}
+
+/*CARRUSEL*/
+        .slide {
+            position: relative;
+            box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+            margin-top: 0; /* Ajusta el margen superior si es necesario */
+        }
+        
+        .slide-inner {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: calc(900px + 3em); /* Aumenta la altura del carrusel */
+            top: 0px; /* Reduzca este valor para acercar el carrusel a la barra de navegación */
+        }
+        
+        .slide-open:checked + .slide-item {
+            position: static;
+            opacity: 100;
+        }
+        .slide-item {
+            position: absolute;
+            opacity: 0;
+            -webkit-transition: opacity 0.6s ease-out;
+            transition: opacity 0.6s ease-out;
+        }
+        .slide-item img {
+            display: block;
+            height: auto;
+            max-width: 100%;
+        }
+        .slide-control {
+            background: rgba(0, 0, 0, 0.28);
+            border-radius: 50%;
+            color: #fff;
+            cursor: pointer;
+            display: none;
+            font-size: 40px;
+            height: 40px;
+            line-height: 35px;
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translate(0, -50%);
+            cursor: pointer;
+            -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+            text-align: center;
+            width: 40px;
+            z-index: 10;
+        }
+        .slide-control.prev {
+            left: 2%;
+        }
+        .slide-control.next {
+            right: 2%;
+        }
+        .slide-control:hover {
+            background: rgba(0, 0, 0, 0.8);
+            color: #aaaaaa;
+        }
+        #slide-1:checked ~ .control-1,
+        #slide-2:checked ~ .control-2,
+        #slide-3:checked ~ .control-3 {
+            display: block;
+        }
+        .slide-indicador {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            bottom: 2%;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 10;
+        }
+        .slide-indicador li {
+            display: inline-block;
+            margin: 0 5px;
+        }
+        .slide-circulo {
+            color: #828282;
+            cursor: pointer;
+            display: block;
+            font-size: 35px;
+        }
+        .slide-circulo:hover {
+            color: #aaaaaa;
+        }
+        #slide-1:checked ~ .control-1 ~ .slide-indicador 
+             li:nth-child(1) .slide-circulo,
+        #slide-2:checked ~ .control-2 ~ .slide-indicador 
+              li:nth-child(2) .slide-circulo,
+        #slide-3:checked ~ .control-3 ~ .slide-indicador 
+              li:nth-child(3) .slide-circulo {
+            color: #428bca;
+        }
+        #titulo {
+            width: 100%;
+            position: absolute;
+            padding: 0px;
+            margin: 0px auto;
+            text-align: center;
+            font-size: 27px;
+            color: rgba(255, 255, 255, 1);
+            font-family: 'Open Sans', sans-serif;
+            z-index: 9999;
+            text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), 
+                 -1px 0px 2px rgba(255, 255, 255, 0);
+        }
+        .slide-item img {
+            display: block;
+            height: 1000px; /* Establece la altura deseada */
+            width: 100%; /* Para mantener la proporción de la imagen */
+            max-width: 100%;
+        }
+/*RESPONSIVO*/
+/* Ajustes para dispositivos móviles */
+/*IMAGENES EN TEXTO*/
+/*ubicacion*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    margin: 10px;
+}
+
+.gallery-item iframe {
+    border: none;
+}
+
+/*gatronomia seccion5*/
+.gallery_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery_div img {
+    width: 100%; /* Ajustar al ancho del contenedor */
+    height: auto; /* Permitir que la altura se ajuste automáticamente */
+    margin-bottom: 20px;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.contenedor img {
+    width: 100%; /* Ajustar al ancho del contenedor */
+}
+
+.contenedor p {
+    width: 100%; /* Ajustar al ancho del contenedor */
+    padding-left: 20px; /* Espacio entre la imagen y el texto */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+li strong {
+    color: #fdfdfd;
+}
+
+/*IDIOMA SECCION 4*/
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajustar número de columnas dependiendo del ancho */
+    justify-content: center;
+    gap: 20px;
+}
+
+.imagen {
+    width: 100%; /* Ajustar al ancho del contenedor */
+    text-align: center;
+}
+
+.imagen img {
+    max-width: 100%; /* Ajustar al ancho del contenedor */
+}
+
+.videos-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videos-container iframe {
+    margin-right: 20px;
+}
+
+/*RESPONSIVO*/
+@media screen and (max-width: 768px) {
+    .gallery_div img,
+    .contenedor img,
+    .contenedor p,
+    .imagen img {
+        width: 100%; /* Ajustar al ancho del contenedor en dispositivos móviles */
+    }
+}
+
+/*TEXTO*/
+/* Información, religión, idioma, gastronomía, ubicación */
+#informacion,
+#religion,
+#idioma,
+#gastronomia,
+#ubicacion {
+    text-align: justify;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: hsla(217, 77%, 28%, 0.908);
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#informacion img,
+#religion img,
+#idioma img,
+#gastronomia img,
+#ubicacion img {
+    max-width: 100%; /* Ajustar al ancho del contenedor */
+    height: auto; /* Permitir que la altura se ajuste automáticamente */
+    margin-left: 0; /* Resetear el margen */
+}
+
+h1 {
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/*RESPONSIVO*/
+@media screen and (max-width: 768px) {
+    #informacion,
+    #religion,
+    #idioma,
+    #gastronomia,
+    #ubicacion {
+        padding: 20px; /* Ajustar el padding en dispositivos móviles */
+        margin-top: 10px;
+    }
+}
+
+/*PIE DE PAGINA*/
+footer {
+    background-color: #a7845c;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/*BOTONES*/
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 35px;
+    height: 35px;
+    line-height: 4px;
+    text-align: center;
+    color: hsl(33, 43%, 9%);
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(156, 105, 105, 0.1);
+    transition: all .2s ease-in-out;
+    margin-right: 5px;
+}
+
+.buttons a:last-child {
+    margin-right: 0;
+}
+
+.buttons a:hover {
+    transform: scale(1.2);
+}
+
+/*NAVEGACIÓN*/
+nav {
+    background-color: #bc976c;
+    color: #131212;
+    padding: 1.5em;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-family: "Verdana", serif;
+    font-weight: bold;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    color: hsla(217, 83%, 12%, 0.908);
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+}
+
+/*CARRUSEL*/
+.slide {
+    position: relative;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+}
+
+.slide-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: calc(900px + 3em);
+    top: 0px;
+}
+
+.slide-open:checked + .slide-item {
+    position: static;
+    opacity: 100;
+}
+
+.slide-item {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.6s ease-out;
+}
+
+.slide-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.slide-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+.slide-control.prev {
+    left: 2%;
+}
+
+.slide-control.next {
+    right: 2%;
+}
+
+.slide-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+.slide-indicador {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.slide-indicador li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slide-circulo {
+    color: #828282;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.slide-circulo:hover {
+    color: #aaaaaa;
+}
+
+.slide-item img {
+    display: block;
+    height: 1000px;
+    width: 100%;
+    max-width: 100%;
+}
+
+/*RESPONSIVO*/
+@media screen and (max-width: 768px) {
+    .slide-control {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slide-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .slide-inner {
+        height: auto;
+    }
+}
+
