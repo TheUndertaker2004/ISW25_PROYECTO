@@ -1,0 +1,381 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+      .lato-regular {
+        font-family: "Lato", sans-serif;
+        font-weight: 550;
+        font-style: normal;
+      }
+      
+}
+
+#navbar
+{
+    background: #f9f9f9;
+}
+#logo
+{
+    font-size: 36px;
+    font-weight: 550;
+    color: yellow;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+#logo span
+{
+    color: #CDFADB;
+}
+.navbar-toggler span
+{
+    color: #CDFADB;
+}
+.navbar-nav
+{
+    margin-left: 20px;
+}
+.nav-item .nav-link
+{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover
+{
+    background: #69c687;
+    color: white;
+    
+}
+#navbar form button
+{
+    background: #69c687;
+    color: white;
+    border: none;
+}
+
+/*Seccion inicio*/
+.home
+{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(./Imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .content
+{
+    text-align: center;
+    padding-top: 200px;
+}
+.home .content h5
+{
+    color: white;
+    font-size: 38px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+}
+.home .content h1
+{
+    color: white;
+    font-size: 70px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+}
+.changecontent::after
+{
+    content: '';
+    color: #69c687;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 20s infinite linear;
+}
+@keyframes changetext
+{
+    0%{content: "Fondo De Bikini";}
+    10%{content: "El Mundo del Guante";}
+    20%{content: "Crustaceo Cascarudo";}
+    30%{content: "Balde de Bocados";}
+    40%{content: "Helados Cacahuate";}
+    50%{content: "Super Pequeñines";}
+    60%{content: "Campos de Medusas`";}
+    70%{content: "Escuela de Botes";}
+    80%{content: "Laguna Pegajosa";}
+    90%{content: "Casa de Bob Esponja";}
+    100%{content: "Casa de Patricio";}
+}
+
+.home .content p
+{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.home .content a
+{
+    padding: 10px;
+    background: white;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 550;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.home .content a:hover
+{
+    background: #69c687;
+    color: white;
+}
+@media (max-width:850px)
+{
+    .home
+    {
+        background-position: 50%;
+    }
+}
+@media (max-width:450px)
+{
+    .home .content h5
+    {
+        font-size: 25px;
+    }
+    .home .content h1
+    {
+        font-size: 38px;
+    }
+    .home .content p
+    {
+        font-size: 13px;
+    }
+}
+.Nota
+{
+    color: blue;
+}
+/*Seccion inicio Fin*/
+.book
+{
+    background: #CDFADB;
+    padding: 50px;
+}
+.main-text h1
+{
+    text-align: center;
+    text-shadow: 0px 1px 1px yellow;
+    font-weight: 600;
+}
+.main-text h1 span
+{
+    color: #69c687;
+}
+.book .card
+{
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book .row
+{
+    margin-top: 30px;
+}
+.book form input
+{
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book form textarea
+{
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0x 5px 5px -6px black;
+    height: 200px;
+}
+.book .submit
+{
+    width: 160px;
+    font-size: 16px;
+    font-weight: 550;
+    background: #69c687;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.book .submit:hover
+{
+    width: 170px;
+}
+@media (max-width:765px)
+{
+    .book
+    {
+        padding: 0;
+    }
+    .main-text h1
+    {
+        padding: 20px;
+    }
+}
+.checked
+{
+    color: #69c687;
+}
+.star i
+{
+    font-size: 15px;
+}
+.guante
+{
+    width: 415px;
+    height: 230px;
+}
+.alinear
+{
+    text-align: center;
+}
+/*Seccion Informacion Fin*/
+.services
+{
+    background: #f1f6ce;
+    margin-top: 50px;
+}
+.services .card
+{
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+}
+.services .card i
+{
+    font-size: 80px;
+    text-align: center;
+    color: #69c687;
+    margin-top: 20px;
+}
+.services .card .card-body h3
+{
+    font-weight: 600;
+}
+.services .card .card-body
+{
+    text-align: center;
+}
+/*Seccion Servicios*/
+
+
+/*seccion galeria*/
+.gallary
+{
+    margin-top: 50px;
+}
+.gallary .card
+{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+.gallary .card img:hover
+{
+    transform: scale(1.1);
+}
+/*seccion galeria Fin*/
+
+/*Seccion Gobierno*/
+.about
+{
+    padding: 50px;
+    margin-top: 50px;
+    background: #CDFADB;
+}
+.about .card
+{
+    border-radius: 10px;
+}
+.about .card img
+{
+    border-radius: 10px;
+}
+.about h2
+{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.about p
+{
+    font-weight: 500;
+}
+#about-btn
+{
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background: #69c687;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#about-btn:hover
+{
+    width: 170px;
+}
+@media (max-width:765px)
+{
+    .about
+    {
+        padding: 0;
+    }
+}
+/*Seccion Gobierno Fin*/
+
+/*Footer*/
+#footer
+{
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    background: #f9f9f9;
+}
+#footer h1
+{
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+}
+#footer h1 span
+{
+    color: #69c687;
+}
+.social-links
+{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-links:hover
+{
+    background: #69c687;
+}
+/*Footer*/
