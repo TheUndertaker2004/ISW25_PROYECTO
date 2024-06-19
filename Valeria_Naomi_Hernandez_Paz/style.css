@@ -1,0 +1,264 @@
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333333;
+}
+.logo {
+  color: #333333;
+  margin-left: 3rem;
+  display: inline-block; /* Mostrar como bloque en línea */
+}
+.nav-link {
+  color: #333333;
+  display: inline-block; /* Mostrar como bloque en línea */
+}
+.nav-link img {
+  width: 2rem;
+  margin-left: 73rem;
+  display: inline-block; /* Mostrar como bloque en línea */
+  cursor: pointer;
+}
+
+.button {
+  display: inline-block;
+  background-color: #333333;
+  color: #f3f4f6;
+  width: 7rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+/* Utility classes */
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.md\:py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.bg-gray-100 {
+  background-color: #f3f4f6;
+}
+
+.dark\:bg-gray-950 {
+  background-color: whitesmoke;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+
+.sm\:text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.md\:text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-gray-500 {
+  color: #6b7280;
+}
+
+.dark\:text-gray-400 {
+  color: #9ca3af;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.md\:px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.md\:grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  margin-top: 1rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-gray-500 {
+  color: #6b7280;
+}
+
+.dark\:text-gray-400 {
+  color: #9ca3af;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.products-space {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas de ancho igual */
+  grid-template-rows: repeat(2, 1fr); /* Dos filas de altura igual */
+  gap: 1rem; /* Espacio entre las celdas */
+  justify-items: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
+}
+
+.product {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  background-color: #fff; /* Fondo blanco */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+  border-radius: 1rem; /* Bordes redondeados */
+  overflow: hidden; /* Para ocultar el contenido que se desborda */
+  height: 22rem;
+  width: 20rem;
+}
+
+@media (min-width: 640px) {
+  .products {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Dos columnas en pantallas medianas */
+  }
+}
+
+@media (min-width: 1024px) {
+  .products {
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* Tres columnas en pantallas grandes */
+  }
+}
+
+.titulo-pro {
+  color: #333333;
+  margin-left: 2rem;
+}
+
+/* Footer specific styles */
+.footer-space {
+  background-color: #111111; /* Fondo gris claro en modo claro */
+  color: #ffffff; /* Texto gris en modo claro */
+  padding-top: 1.5rem; /* Espaciado superior */
+  padding-bottom: 1.5rem; /* Espaciado inferior */
+}
